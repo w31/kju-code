@@ -7,7 +7,9 @@
       d:DesignHeight="300" d:DesignWidth="300"
 	Title="Input">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <Label Height="Auto" Margin="20,0,0,0" FontSize="16">URL</Label>
+        <TextBox Name="urlTextBox" Height="35" FontSize="24" Margin="20,0"></TextBox>
+        <Button Height="50" Width="100" Margin="0,0,20,20" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="16" Click="Button_Click">Generate</Button>
+    </StackPanel>
 </Page>
